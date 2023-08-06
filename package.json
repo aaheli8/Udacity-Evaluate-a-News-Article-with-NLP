@@ -7,7 +7,9 @@
     "test": "jest",
     "start": "nodemon ./src/server/index.js",
     "build-prod": "webpack --config webpack.prod.js",
-    "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
+    "prod":"webpack-dev-server  --config webpack.prod.js --open",
+    "dev": "webpack-dev-server  --config webpack.dev.js --open",
+    "build-dev": "webpack --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",

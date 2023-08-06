@@ -1,0 +1,36 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    text-align: center; 
+
+    input {
+        padding: 5px 20px;
+        width: 100%;
+        line-height: 26px;
+        margin: 10px 0;
+        border: 1px solid #0d0a0a; 
+        border-radius: 5px; 
+    }
+
+    button {
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    button:hover {
+        color: #ffffff;
+        background-color:  #04023a;
+
+    }
+    #error {
+        color: red;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+}
